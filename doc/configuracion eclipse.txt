@@ -1,0 +1,8 @@
+He metido el temporizador de estas librerias en el proyecto. Para que os
+funcione al ejecutar tenéis que poner lo siguiente en la sección
+Arguments -> VM Arguments de vuestra configuración "Run" del proyecto en
+el eclipse:
+
+-Djava.library.path=lib
+
+Es para que encuentre las librerias nativas de cada sistema.

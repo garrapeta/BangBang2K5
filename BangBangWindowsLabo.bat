@@ -1,0 +1,1 @@
+c:\j2sdk1.4.2_05\bin\java -Djava.library.path=lib -cp .;bin;lib\lwjgl.jar;lib\jl1.0.jar;lib\jogg-0.0.7.jar;lib\jorbis-0.0.13.jar;lib\mp3spi1.9.2.jar;lib\tritonus_share.jar;lib\vorbisspi1.0.1.jar;lib\jh2.0\javahelp\lib\jh.jar;lib\jh2.0\javahelp\lib\jhall.jar;lib\jh2.0\javahelp\lib\jhbasic.jar;lib\jh2.0\javahelp\lib\jsearch.jar;My_JavaHelp Main

@@ -1,0 +1,7 @@
+RECOMENDACIONES PARA TRABAJAR CON EL CVS
+
+- Recuerda hacer un "update" antes de ponerte a trabajar sobre el código fuente.
+
+- Recuerda hacer un "update" antes de hacer un "commit" de tus cambios.
+
+- Es recomendable usar para ésto la opción "synchronize".

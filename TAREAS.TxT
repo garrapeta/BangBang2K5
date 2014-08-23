@@ -1,0 +1,45 @@
+JUEGO
+
+
+GRÁFICOS
+
+28-2-2005 Añadir animación a las capas intermedias del fondo 	HECHO
+
+28-2-2005 Tener en cuenta el angulo al dibujar. Lo de las transf afines		HECHO
+28-2-2005 Tener en cuenta la direccion al dibujar. Sólo en personajes!!!!!	HECHO
+
+28-2-2005 Implementar el método getCollision() en Stage. 		HECHO
+28-2-2005 Implementar el método getCollision() en Logic Actor. HECHO
+
+28-2-2005 Colocar el punto de la logica interna en centro del pixel, 
+		  en el caso de la munición. 		DESCARTADO
+		  
+
+2-3-2005 Mejorar el método getCollision() para que funcione con todas las imágenes		HECHO  
+2-3-2005 Mejorar la interfaz gráfica	HECHO
+2-3-2005 Implementar las explosiones (clase Explossion)	HECHO
+2-3-2005 Integrar Chat
+
+19-3-2005 Flechas que indiquen hacia donde se puede desplazar la cámara
+
+
+FÍSICA
+
+28-2-2005 Conseguir que rebote en condiciones.	PENDIENTE
+2-3-2005 Andar por el terreno 					HECHO
+2-3-2005 Usar logic como fuente de los datos 	HECHO
+11-3-2005 Implementar los saltos 				HECHO
+
+Tengo serios problemas para manejar de manera adecuada el control.
+Por ejemplo, si saltamos, y en mitad del aire volvemos a pulsar "salto",
+volvemos a saltar. Si en lugar de eso, pulsamos las teclas de dirección, pues peor.
+
+
+SONIDO
+
+5-3-2005 Musica.		 + o -HECHO
+5-3-2005 Implementar una evaluacion de condiciones de sonido mas eficiente
+5-3-2005 Implementar un formato para describir las condiciones de sonido en plan matriz
+5-3-2005 Cambiar la mierda de samples que tiene el robot
+5-3-2005 Ver por qué se para un instante cuando se ejecuta el sample por primera vez (OK)
+5-3-2005 Inicializacion scripts

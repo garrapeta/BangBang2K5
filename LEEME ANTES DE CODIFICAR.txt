@@ -1,0 +1,4 @@
+IMPORTANTE
+
+Antes de codificar Mira la documentación del directorio "doc" que especifica normas y 
+recomendaciones para escribir código.

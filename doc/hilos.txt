@@ -1,0 +1,23 @@
+Hay que ser muy cuidadoso con los hilos y ser conscientes de que están ahí cuando programamos,
+ sobre todo si estamos utilizando SWING. Cuando se ejecuta la función main todo el código del flujo
+ que se sigue a partir de ésta se ejecuta en el hilo "main", al menos que nosotros creemos otro hilo,
+ o cuando se utiliza AWT/Swing, porque Java ejecuta todos los eventos y el 
+  código gráfico en un hilo aparte, el "event dispatch thread" (EDP). Cuando digo todos los eventos quiero
+  decir todos, es decir, que si implementamos una clase ActionListener para realizar una acción 
+  cuando se pulse un botón, el código que metamos en la función actionPerformed() (que es el
+  que se ejecuta cuando pulsamos el botón) va a ejecutarse en el hilo EDP y no en el main. En nuestro
+  juego este problema se puede ilustrar mediante el siguiente ejemplo:
+  
+- Creamos una ventana de bienvenida con un botón de comenzar el juego. A ese botón le asociamos 
+ un ActionListener con un método actionPerformed() que crea un objeto "juego" y se invoca su método 
+ ejecutar(). Como el código Swing se ejecuta todo en el EDP, cuando se pulsa el botón
+ el código del método actionListener se ejecuta en el EDP y como éste llama al método ejecutar()
+ del objeto "juego" (que probablemente tendrá un bucle principal infinito), habremos bloqueado el EDP
+ y por lo tanto todo el código AWT/Swing, incluído el del propio objeto "juego". Esto se soluciona
+ creando un nuevo hilo dentro de la función actionPerformed() en el que se genere y ejecute el 
+ objeto "juego".
+ 
+ Esto no quiere decir que tengamos que abusar de los hilos. Lo ideal es que sólo haya 2 hilos 
+ simultaneamente, el EDP (donde se ejecuta todo el código AWT/Swing) y el main (donde se ejecuta
+ nuestro código). Como el hilo main desaparecerá eventualmente cuando termine de ejecutarse su código,
+ en la siguiente ocasión que lo necesitemos simplemente lo volveremos a crear desde el EDP.

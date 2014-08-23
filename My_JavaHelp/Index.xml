@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE index
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/index_1_0.dtd">
+
+<index version="1.0">
+  <indexitem text="Escenarios">
+    <indexitem target="Eleuron" text="Eleuron"/>
+    <indexitem target="OCB-5" text="OCB-5"/>
+    <indexitem target="Silicosis" text="Silicosis"/>
+    <indexitem target="Nodrubaz" text="Nodrubaz"/>
+    <indexitem target="Campo de Asteroides" text="Campo de Asteroides"/>
+  </indexitem>
+  <indexitem text="Razas">
+    <indexitem target="Eleo" text="Eleo"/>
+    <indexitem target="Ninfa" text="Ninfa"/>
+    <indexitem target="Scraper" text="Scraper"/>
+    <indexitem target="Biomorph" text="Biomorph"/>
+    <indexitem target="GMarine" text="GMarine"/>
+  </indexitem>
+  <indexitem target="contenidos" text="contenidos"/>
+</index>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<!DOCTYPE map
+  PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN"
+         "http://java.sun.com/products/javahelp/map_1_0.dtd">
+
+<map version="1.0">
+
+  <mapID target="toplevelfolder" url="Images/toplevel.gif" />
+
+  <mapID target="Contenidos" url="Topics/Contenidos.htm" />
+
+  <mapID target="Control del teclado" url="Topics/Controles/Control del teclado.htm" />
+
+  <mapID target="Eleo" url="Topics/Razas/Eleo.htm" />
+  <mapID target="Ninfa" url="Topics/Razas/Ninfa.htm" />
+  <mapID target="Biomorph" url="Topics/Razas/Biomorph.htm" />
+  <mapID target="GMarine" url="Topics/Razas/GMarine.htm" />
+  <mapID target="Scraper" url="Topics/Razas/Scraper.htm" />
+
+  <mapID target="Eleuron" url="Topics/Escenarios/Eleuron.htm" />
+  <mapID target="Silicosis" url="Topics/Escenarios/Silicosis.htm" />
+  <mapID target="OCB-5" url="Topics/Escenarios/OCB-5.htm" />
+  <mapID target="Nodrubaz" url="Topics/Escenarios/Nodrubaz.htm" />
+  <mapID target="Campo de Asteroides" url="Topics/Escenarios/Campo de Asteroides.htm" />
+
+</map>

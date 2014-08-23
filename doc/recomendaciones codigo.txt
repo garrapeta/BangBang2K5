@@ -1,0 +1,21 @@
+RECOMENDACIONES PARA ESCRIBIR CÓDIGO
+
+- Intenta escribir código lo más estructurado, claro y de la mayor calidad posible.
+
+- Antepón la claridad a la eficiencia. Un código claro siempre puede hacerse que funcione de
+forma eficiente, pero no al revés.
+
+- Tómate un tiempo en leer y comprender el código que hayan escrito los demás, especialmente
+aquel relacionado con la funcionalidad que vas a implementar.
+
+
+CUESTIONES TÉCNICAS.
+
+- Si necesitas un vector o un array es recomendable usar la clase "ArrayList" en lugar de "Vector", 
+ya que es más nueva y rápida.
+
+- Cuando haya que realizar operaciones de lectura o escritura en disco, utilizar simpre funciones que para
+indicar la ruta de un fichero pidan como parámetro un objeto de clase "File", en lugar de un String con la
+ruta, ya que ésta depende del sistema de ficheros de cada sistema operativo y por tanto su formato es
+distinto en cada uno de ellos, mientras que los objetos "File" son independientes de la plataforma.
+
